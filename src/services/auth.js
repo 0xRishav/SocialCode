@@ -1,4 +1,4 @@
-import { auth, provider } from '../firebase';
+import { auth, provider, firebase } from '../firebase';
 
 export const signInWithGoogle = async () => {
 	let user;
@@ -7,6 +7,8 @@ export const signInWithGoogle = async () => {
 		.then((res) => {
 			console.log(res.user);
 			user = res.user;
+			console.log(user.displayName);
+			console.log(user.email);
 		})
 		.catch((err) => {
 			console.log(err.message);
@@ -28,3 +30,5 @@ export const logOut = async () => {
 
 	return logout_success;
 };
+
+
