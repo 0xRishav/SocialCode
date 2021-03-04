@@ -1,0 +1,11 @@
+.sign-in-btn {
+	background-color: #504edf;
+	padding: 12px 24px;
+	font-weight: 500;
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 12px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+	cursor: pointer;
+}

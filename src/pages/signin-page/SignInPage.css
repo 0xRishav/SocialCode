@@ -1,0 +1,29 @@
+.logo {
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	color: white;
+}
+
+.sign-in-page {
+	height: 100vh;
+	background: linear-gradient(59.93deg, rgba(36, 36, 46, 0.7) 0%, #23232d 100%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.sign-in-page-heading {
+	color: white;
+	font-size: 4rem;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.heading-button-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
