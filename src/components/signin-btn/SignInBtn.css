@@ -1,7 +1,8 @@
 .sign-in-btn {
 	background-color: #504edf;
 	padding: 12px 24px;
-	font-weight: 500;
+	font-size: 1rem;
+	font-weight: 700;
 	color: white;
 	border: none;
 	outline: none;
