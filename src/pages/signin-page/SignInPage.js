@@ -5,7 +5,7 @@ import './SignInPage.css';
 function SignInPage() {
 	return (
 		<div className="sign-in-page">
-			<h4 className="logo">RSocial</h4>
+			<h3 className="logo">RSocial</h3>
 			<div className="heading-button-container">
 				<h1 className="sign-in-page-heading">
 					Hey

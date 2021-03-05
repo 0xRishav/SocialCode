@@ -15,14 +15,14 @@ const auth = firebase.auth();
 const storage = firebase.storage();
 const provider = new firebase.auth.GoogleAuthProvider();
 
-const isUserSignedIn = () => {
-	firebase.auth().onAuthStateChanged(function (user) {
-		if (user) {
-			return true;
-		} else {
-			return false;
-		}
-	});
-};
+// const isUserSignedIn = () => {
+// 	firebase.auth().onAuthStateChanged(function (user) {
+// 		if (user) {
+// 			return true;
+// 		} else {
+// 			return false;
+// 		}
+// 	});
+// };
 
-export { db, auth, provider, storage, isUserSignedIn };
+export { db, auth, provider, storage };

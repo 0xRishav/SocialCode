@@ -1,0 +1,12 @@
+.logo {
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	color: white;
+}
+
+.homepage {
+	height: 100vh;
+	background: #24242e;
+	position: relative;
+}

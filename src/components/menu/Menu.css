@@ -1,0 +1,20 @@
+.option-icon-container {
+	cursor: pointer;
+}
+
+.menu-option-text {
+	color: #b0b0b3;
+}
+
+.active {
+	color: white;
+}
+.menu {
+	width: 8%;
+	position: relative;
+}
+.option-icon-container {
+	/* width: 60%; */
+	display: flex;
+	justify-content: space-between;
+}
