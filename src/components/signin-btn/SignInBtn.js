@@ -15,7 +15,7 @@ function SignInBtn() {
 	};
 
 	return (
-		<button onClick={handleSignInClick} className="sign-in-btn">
+		<button onClick={handleSignInClick} className="SignInBtn">
 			Sign In with Google
 		</button>
 	);

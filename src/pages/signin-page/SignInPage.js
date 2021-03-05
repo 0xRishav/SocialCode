@@ -4,10 +4,10 @@ import './SignInPage.css';
 
 function SignInPage() {
 	return (
-		<div className="sign-in-page">
-			<h3 className="logo">RSocial</h3>
-			<div className="heading-button-container">
-				<h1 className="sign-in-page-heading">
+		<div className="SignInPage">
+			<h3 className="SignInPage__logo">RSocial</h3>
+			<div className="SignInPage__headingButtonContainer">
+				<h1 className="SignInPage__heading">
 					Hey
 					<WavingHand />, Welcome to RSocial.
 				</h1>

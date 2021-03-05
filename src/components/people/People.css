@@ -1,0 +1,16 @@
+.User__peopleComponentUserImage {
+	width: 40px;
+	height: auto;
+	object-fit: contain;
+	border-radius: 12px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.User__userContainer {
+	display: flex;
+	justify-content: space-between;
+}
+.User__nameUsernameContainer {
+	display: flex;
+	flex-direction: column;
+}

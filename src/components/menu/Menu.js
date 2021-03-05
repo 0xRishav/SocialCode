@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import './Menu.css';
 import DynamicFeedIcon from '@material-ui/icons/DynamicFeed';
-import AccountBoxIcon from '@material-ui/icons/AccountBox';
-import { white } from '@material-ui/core/colors';
 
 function Menu() {
 	const menuOptions = [
@@ -21,20 +19,20 @@ function Menu() {
 		});
 	};
 	return (
-		<div style={{ padding: '50px' }} className="menu">
-			<h5 style={{ fontWeight: 500, color: '#6A6A71', marginBottom: '20px' }}>
+		<div className="Menu">
+			<h6 style={{ fontWeight: 500, color: '#6A6A71', marginBottom: '20px' }}>
 				Menu
-			</h5>
+			</h6>
 			{menuOptions.map((option, index) => (
 				<div
 					onClick={() => handleOptionClick(option.id)}
-					className="option-icon-container"
+					className="Menu__optionIconContainer"
 				>
 					<p
 						className={
 							active === option.option
-								? 'active menu-option-text'
-								: 'menu-option-text'
+								? 'Menu__menuOptionText--active Menu__menuOptionText'
+								: 'Menu__menuOptionText'
 						}
 					>
 						{option.option}

@@ -1,20 +1,17 @@
-.option-icon-container {
+.Menu__optionIconContainer {
 	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
 }
 
-.menu-option-text {
+.Menu__menuOptionText {
 	color: #b0b0b3;
 }
 
-.active {
+.Menu__menuOptionText--active {
 	color: white;
 }
-.menu {
+.Menu {
 	width: 8%;
 	position: relative;
-}
-.option-icon-container {
-	/* width: 60%; */
-	display: flex;
-	justify-content: space-between;
 }

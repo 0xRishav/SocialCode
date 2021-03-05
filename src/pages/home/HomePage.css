@@ -5,8 +5,8 @@
 	color: white;
 }
 
-.homepage {
-	height: 100vh;
+.HomePage {
+	/* height: 100vh; */
 	background: #24242e;
 	position: relative;
 }
