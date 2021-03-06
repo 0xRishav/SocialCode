@@ -8,8 +8,11 @@ function MenuPeopleCont() {
 			<h3 style={{ marginBottom: '10px' }} className="">
 				RSocial
 			</h3>
-			<Menu />
-			<People />
+			<div className="MenuPeopleCont__menuPeopleWrapper">
+				<Menu />
+				<People />
+			</div>
+
 		</div>
 	);
 }
