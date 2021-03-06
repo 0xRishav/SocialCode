@@ -1,0 +1,60 @@
+.Post__img {
+	height: 400px;
+	width: 600px;
+	object-fit: cover;
+	border-radius: 40px;
+	position: relative;
+	/* transform: scale(1.01); */
+}
+.Post {
+	width: 600px;
+}
+.Post__contentWrapper {
+	border-radius: 40px;
+	padding-bottom: 25px;
+}
+
+.Post__infoWrapper {
+	width: 90%;
+	margin: auto;
+	padding-bottom: 8px;
+	margin-top: 10px;
+}
+
+.Post__nameLikeWrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+	/* width: 95%;
+	margin: auto; */
+}
+
+.Post__likeWrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.Post__commentsWrapper {
+	width: 95%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.Post__commentContainer {
+	display: flex;
+	align-items: center;
+}
+
+.Post__profileImgNameWrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.Post__profileImg {
+	width: 40px;
+	height: 40px;
+	object-fit: cover;
+	border-radius: 15px;
+	margin-right: 10px;
+}

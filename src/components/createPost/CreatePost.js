@@ -4,7 +4,7 @@ import AddAPhotoIcon from '@material-ui/icons/AddAPhoto';
 
 function CreatePost() {
 	return (
-		<div className="CreatePost">
+		<div className="CreatePost grey-box-shadow">
 			<h5 style={{ marginBottom: '10px', fontWeight: '500' }}>Create Post</h5>
 			<textarea
 				className="CreatePost__captionInput"
@@ -19,7 +19,7 @@ function CreatePost() {
 					<AddAPhotoIcon />
 				</div>
 
-				<button className="CreatePost__uploadBtn">Upload</button>
+				<button className="blue-btn">Upload</button>
 			</div>
 		</div>
 	);
