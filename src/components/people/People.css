@@ -8,9 +8,9 @@
 
 .User__userContainer {
 	display: flex;
-	justify-content: space-between;
+	/* justify-content: space-around; */
+	margin: 10px 0;
 }
 .User__nameUsernameContainer {
-	display: flex;
-	flex-direction: column;
+	margin-left: 10px;
 }

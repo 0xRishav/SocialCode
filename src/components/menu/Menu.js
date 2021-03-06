@@ -20,7 +20,7 @@ function Menu() {
 	};
 	return (
 		<div className="Menu">
-			<h6 style={{ fontWeight: 500, color: '#6A6A71', marginBottom: '20px' }}>
+			<h6 style={{ fontWeight: 500, color: '#6A6A71', marginBottom: '5px' }}>
 				Menu
 			</h6>
 			{menuOptions.map((option, index) => (

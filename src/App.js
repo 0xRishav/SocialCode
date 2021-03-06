@@ -9,8 +9,6 @@ function App() {
 	return (
 		<div className="App">
 			{true ? <HomePage /> : <SignInPage />}
-
-			{/* <h1>Hey there, Welcome to SocialCode</h1> */}
 		</div>
 	);
 }
