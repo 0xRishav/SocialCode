@@ -1,0 +1,56 @@
+.NotificationUser {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NotificationUser__iconContainer {
+  display: inline-block;
+  background-color: #504edf;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  color: white;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  box-shadow: #514edf56 0px 22px 70px 4px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-top: 12px;
+}
+
+.NotificationUser__nameWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.NotificationUser__imagewrapper {
+  position: relative;
+  margin-left: 16px;
+}
+.NotificationUser__profileImage {
+  width: 50px;
+  height: auto;
+  border-radius: 10px;
+  position: relative;
+}
+
+.NotificationUser__activeSpan {
+  background-color: #69d956;
+  padding: 5px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  border-radius: 5px;
+  z-index: 999;
+}
+
+.NotificationUser__userInfoProfileWrapper {
+  display: flex;
+}
+
+.NotificationUser__userInfo {
+  display: flex;
+}
