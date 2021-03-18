@@ -1,12 +1,13 @@
 .logo {
-	position: absolute;
-	top: 2%;
-	left: 2%;
-	color: white;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  color: white;
 }
 
 .HomePage {
-	/* height: 100vh; */
-	background: #24242e;
-	position: relative;
+  /* height: 100vh; */
+  background: #24242e;
+  position: relative;
+  height: 100vh;
 }

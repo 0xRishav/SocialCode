@@ -5,3 +5,4 @@ export { default as People } from "./people/People";
 export { default as CreatePost } from "./createPost/CreatePost";
 export { default as Post } from "./Post/Post";
 export { default as NotificationUser } from "./notification-user/NotificationUser";
+export { default as Livechat } from "./livechat/Livechat";
