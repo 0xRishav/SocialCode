@@ -47,24 +47,28 @@ function Livechat() {
     },
   ];
   return (
-    <div className="Livechat">
+    <div className="Livechat__wrapper">
       <h4 className="Livechat__heading">Live chat</h4>
-      {fakeChat.map((chat) => (
-        <div className="Livechat__chatWrapper">
-          <p style={{ fontSize: "10px", opacity: "0.5", marginBottom: "4px" }}>
-            {chat.time}
-          </p>
-          <div className="Livechat__imageNameWrapper">
-            <img
-              src={chat.profileImage}
-              alt="pp"
-              className="Livechat__chatImage"
-            />
-            <h4 className="Livechat__name">{chat.name}</h4>
+      <div className="Livechat">
+        {fakeChat.map((chat) => (
+          <div className="Livechat__chatWrapper">
+            <p
+              style={{ fontSize: "10px", opacity: "0.5", marginBottom: "4px" }}
+            >
+              {chat.time}
+            </p>
+            <div className="Livechat__imageNameWrapper">
+              <img
+                src={chat.profileImage}
+                alt="pp"
+                className="Livechat__chatImage"
+              />
+              <h4 className="Livechat__name">{chat.name}</h4>
+            </div>
+            <p className="Livechat__chatText">{chat.chat}</p>
           </div>
-          <p className="Livechat__chatText">{chat.chat}</p>
-        </div>
-      ))}
+        ))}
+      </div>
       <div className="Livechat__chatInputWrapper">
         <textarea
           className="Livechat__textArea"

@@ -1,6 +1,6 @@
 .Livechat {
-  height: 80%;
-  width: 90%;
+  height: 79%;
+  width: 100%;
   margin: auto;
   background-color: #2a2d3b;
   padding: 8px 16px;
@@ -9,22 +9,55 @@
   position: relative;
   overflow-y: auto;
 }
+.Livechat__wrapper {
+  height: 80%;
+  width: 90%;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2a2d3b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #24242e;
+}
 
 .Livechat__heading {
   padding: 16px 8px;
 }
 .Livechat__chatInputWrapper {
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  bottom: 16px;
+  bottom: -17px;
   margin: auto;
+  background-color: #2a2d3b;
+  position: absolute;
+  padding: 16px 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  /* padding: 16px 0; */
 }
 
 .Livechat__textArea {
-  background: transparent;
+  width: 80%;
+  height: 20%;
+  background: #2a2d3b;
   border: none;
   outline: none;
   color: white;
