@@ -1,7 +1,11 @@
 import React from "react";
 import { CreatePost, Post } from "../../components";
 import "./HomePage.css";
-import { LivechatContainer } from "../../containers";
+import {
+  LivechatContainer,
+  MenuPeopleCont,
+  PostCreatePostContainer,
+} from "../../containers";
 
 function HomePage() {
   return (
@@ -19,6 +23,8 @@ function HomePage() {
           style={{ width: "150px", height: "700px", background: "black" }}
         ></div>
       </div> */}
+      <MenuPeopleCont />
+      <PostCreatePostContainer />
       <LivechatContainer />
     </div>
   );

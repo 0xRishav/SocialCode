@@ -1,18 +1,21 @@
 .Menu__optionIconContainer {
-	cursor: pointer;
-	display: flex;
-	justify-content: space-between;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
 }
 
 .Menu__menuOptionText {
-	color: #b0b0b3;
+  color: #b0b0b3;
 }
 
 .Menu__menuOptionText--active {
-	color: white;
+  color: white;
 }
 .Menu {
-	width: 8%;
-	position: relative;
-	margin-bottom: 20px;
+  width: 80%;
+  position: relative;
+  margin-bottom: 20px;
+  margin: auto;
+  margin-top: 5vh;
 }

@@ -1,16 +1,22 @@
 .User__peopleComponentUserImage {
-	width: 40px;
-	height: 40px;
-	object-fit: cover;
-	border-radius: 12px;
-	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .User__userContainer {
-	display: flex;
-	/* justify-content: space-around; */
-	margin: 10px 0;
+  display: flex;
+  /* justify-content: space-around; */
+  margin: 16px 0;
 }
 .User__nameUsernameContainer {
-	margin-left: 10px;
+  margin-left: 10px;
+}
+
+.People {
+  width: 80%;
+  margin: auto;
+  margin-top: 7vh;
 }
